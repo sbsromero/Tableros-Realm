@@ -1,7 +1,7 @@
 # Tableros-Realm
 Aplicación desarrollada en android utilizando el motor de base de datos Realm.
 
-# Modulos
+# Paquetes
 
 La aplicación contiene 4 paquetes los cuales son:
 
