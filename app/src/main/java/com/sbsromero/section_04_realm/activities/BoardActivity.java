@@ -36,6 +36,7 @@ public class BoardActivity extends AppCompatActivity implements RealmChangeListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_board);
+        this.setTitle("Realm");
 
         realm = Realm.getDefaultInstance();
         boards = realm.where(Board.class).findAll();
